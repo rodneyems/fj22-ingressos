@@ -30,5 +30,4 @@ public class SessaoDao {
     	manager.remove(findOne(id));
     }
 
-
 }
