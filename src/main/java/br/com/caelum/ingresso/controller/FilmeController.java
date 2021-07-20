@@ -65,9 +65,9 @@ public class FilmeController {
     }
 
 
-    @DeleteMapping("/admin/filme/{id}")
     @ResponseBody
     @Transactional
+    @DeleteMapping("/admin/filme/{id}")
     public void delete(@PathVariable("id") Integer id){
         filmeDao.delete(id);
     }
